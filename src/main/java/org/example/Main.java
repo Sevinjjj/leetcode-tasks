@@ -144,5 +144,24 @@ public class Main{
 //        //III--->3
 //        //LVIII--->58
 //        //MCMXCIV--->1994
+
+//        public static void main(String[] args) {
+//            // String[] strs = {"flower", "flow", "flight" };
+//            String[] strs = {"dog","racecar","car"};
+//            String prefix = commonPrefix(strs);
+//            System.out.println("Common prefix:" + " " + prefix);
+//        }
+//        public static String commonPrefix(String[] strs) {
+//
+//            String prefix = strs[0];
+//            for (int i = 0; i < strs.length; i++) {
+//                while (! strs[i].startsWith(prefix)) {
+//                    prefix = prefix.substring(0,prefix.length() - 1);
+//                    if (prefix.isEmpty()) return "";
+//                }
+//            }
+//            return prefix;
+//
+//        }
     }
 }
