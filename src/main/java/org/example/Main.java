@@ -43,26 +43,68 @@ public class Main{
 //            }
 //        }
 
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Target daxil et:");
+//        int target = scanner.nextInt();
+//
+//        ArrayList<Integer> nums = new ArrayList<>();
+//        System.out.println("Nece eded daxil edeceksen?");
+//        int count= scanner.nextInt();
+//
+//        System.out.print("Ededleri daxil et:");
+//        for(int k=0; k<count; k++){
+//            nums.add(scanner.nextInt());
+//        }
+//
+//        for(int i=0; i<nums.size(); i++){
+//            for(int j=i+1; j<nums.size(); j++){
+//                if(nums.get(i)+nums.get(j)==target){
+//                    System.out.println("["+i+","+j+"]");
+//                }
+//            }
+//        }
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Target daxil et:");
-        int target = scanner.nextInt();
-
-        ArrayList<Integer> nums = new ArrayList<>();
-        System.out.println("Nece eded daxil edeceksen?");
-        int count= scanner.nextInt();
-
-        System.out.print("Ededleri daxil et:");
-        for(int k=0; k<count; k++){
-            nums.add(scanner.nextInt());
-        }
-
-        for(int i=0; i<nums.size(); i++){
-            for(int j=i+1; j<nums.size(); j++){
-                if(nums.get(i)+nums.get(j)==target){
-                    System.out.println("["+i+","+j+"]");
-                }
-            }
-        }
+//        public class Main {
+//            public static void main(String[] args) {
+//
+//                Scanner scanner = new Scanner(System.in);
+//                System.out.print("Musbet eded daxil edin:");
+//                int inputNum = scanner.nextInt();
+//                while (inputNum < 0) {
+//                    System.out.print("Musbext eded daxil edin:");
+//                    inputNum = scanner.nextInt();
+//                }
+//                int[] inputArray = new int[inputNum];
+//                int i = 0;
+//                int j;
+//                while (inputNum / 10 == 0) {
+//                    j = inputNum % 10;
+//                    inputArray[i] = j;
+//                    inputNum = inputNum / 10;
+//                }
+//                int[] newInputArray = new int[inputArray.length];
+//                i = 0;
+//                while (i < newInputArray.length - 1) {
+//                    newInputArray[i] = inputArray[i];
+//                    i++;
+//                }
+//
+//                i = 0;
+//                j = newInputArray.length - 1;
+//                while (i < j) {
+//                    if (newInputArray[i] != newInputArray[j]) {
+//                        System.out.println( inputNum + " Polindrom ");
+//                        return ;
+//                    }
+//                    i++;
+//                    j--;
+//                }
+//
+//                //System.out.println(inputNum + " Polindromdur ");
+//
+//            }
+//
+//        }
     }
 }
