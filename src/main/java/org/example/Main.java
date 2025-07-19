@@ -163,5 +163,22 @@ public class Main{
 //            return prefix;
 //
 //        }
-    }
+
+//        // int[] nums = {
+//        // int[] nums = {4,1,2,1,2};
+//        int[] nums = {2,2,1};
+//        for (int i = 0; i < nums.length; i++) {
+//            boolean num = false;
+//            for (int j = 0; j < nums.length; j++) {
+//                if (i!=j && nums[i] == nums[j]) {
+//                    num = true;
+//                    break;
+//                }
+//            }
+//            if(!num){
+//                System.out.println("Tek eded: " + nums[i]);
+//                break;
+//            }
+//        }
+//    }
 }
