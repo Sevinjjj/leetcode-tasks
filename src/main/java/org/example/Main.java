@@ -106,5 +106,43 @@ public class Main{
 //            }
 //
 //        }
+
+//        int total = 0;
+//        int prev  = 0;
+//
+//        for (int i = s.length() - 1; i >= 0; i--) {
+//            char c = s.charAt(i);
+//            int current;
+//
+//            switch (c) {
+//                case 'I': current = 1;    break;
+//                case 'V': current = 5;    break;
+//                case 'X': current = 10;   break;
+//                case 'L': current = 50;   break;
+//                case 'C': current = 100;  break;
+//                case 'D': current = 500;  break;
+//                case 'M': current = 1000; break;
+//                default:  throw new IllegalArgumentException(
+//                        "Yanlış Roma rəqəmi: " + c);
+//            }
+//
+//            if (current < prev) {
+//                total -= current;
+//            } else {
+//                total += current;
+//            }
+//            prev = current;
+//        }
+//
+//        return total;
+//    }
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//        String roman = scanner.nextLine();
+//        System.out.println(roman + " ---> " + main(roman));
+//        //III--->3
+//        //LVIII--->58
+//        //MCMXCIV--->1994
     }
 }
